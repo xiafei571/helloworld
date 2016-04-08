@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+    <link href="static/lib/jqcloud/jqcloud.css" rel="stylesheet" media="screen"/>
+    <link href="css/index.css" rel="stylesheet"/>
+    <title>报销分析</title>
+</head>
+
+<body data-spy="scroll" data-target=".sidebar">
+<header id="top">
+    <nav class="navbar">
+        <a class="navbar-brand">报销专题分析</a>
+    </nav>
+</header>
+<div class="container">
+    <div class="row">
+        <!--内容-->
+        <div class="col-xs-10" id="container-main">
+            <!--1.综述-->
+            <div id="zs" class="panel panel-default panel-zs">
+                <div class="panel-heading">综述</div>
+                <div class="panel-body">
+                    <p class="desc">
+                    入职2年来共报销<mark>11</mark>次，共用时<mark>310</mark>天，平均每次报销<mark>28.18</mark>天；
+                    其中耗时最短的三次报销为<mark>2、6、7</mark>天，耗时最长的三次报销为<mark>61、52、51</mark>天；
+                    </p>
+                </div>
+            </div>
+
+            <!--2.耗时百分比-->
+            <div id="hsbfb" class="panel panel-default panel-zs">
+                <div class="panel-heading">平均耗时占比</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div id="chart_12" style="height: 300px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--3.打回位置分布-->
+            <div id="dhgw" class="panel panel-default panel-zs">
+                <div class="panel-heading">打回分析</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="chart-title">
+                                <h3>打回位置分布</h3>
+                            </div>
+                            <div id="chart_13" style="height: 300px">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="chart-title">
+                                <h3>打回原因分析</h3>
+                            </div>
+                            <div id="chart_14" style="height: 300px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--4.耗时分布-->
+            <div id="hsfb" class="panel panel-default panel-zs">
+                <div class="panel-heading">耗时分布图</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="chart-title">
+                                <h3>报销的每个步骤花费时间</h3>
+                            </div>
+                            <div id="chart_1" style="height: 300px">
+                            </div>
+                            <div id="chart_2" style="height: 300px">
+                            </div>
+                            <div id="chart_3" style="height: 300px">
+                            </div>
+                            <div id="chart_4" style="height: 300px">
+                            </div>
+                            <div id="chart_5" style="height: 300px">
+                            </div>
+                            <div id="chart_6" style="height: 300px">
+                            </div>
+                            <div id="chart_7" style="height: 300px">
+                            </div>
+                            <div id="chart_8" style="height: 300px">
+                            </div>
+                            <div id="chart_9" style="height: 300px">
+                            </div>
+                            <div id="chart_10" style="height: 300px">
+                            </div>
+                            <div id="chart_11" style="height: 300px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of 内容-->
+    </div>
+</div>
+<script type="text/javascript" src="static/lib/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="static/lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="static/lib/echarts/echarts-all.js"></script>
+<script type="text/javascript" src="static/lib/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript" src="static/lib/echarts/cus_style/infographic.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/graphOption.js"></script>
+<script type="text/javascript" src="js/initChart.js"></script>
+</body>
+
+</html>

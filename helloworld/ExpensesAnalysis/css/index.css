@@ -1,0 +1,212 @@
+body {
+	position: relative;
+	background-color: #F9F9F9;
+}
+
+mark {
+	background: transparent;
+	color: #fd713e;
+	font-weight: bold;
+}
+
+.panel-zs mark {
+	color: #EA9721;
+	font-weight: normal;
+}
+
+
+/**导航栏*/
+
+.navbar {
+	border-radius: 0;
+	background: #222;
+}
+
+.navbar-brand {
+	height: 62px;
+	padding: 19px 15px;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	color: #FFF;
+}
+
+
+/**内容部分*/
+
+.container {
+	font-family: '微软雅黑';
+}
+
+.panel-default {
+	border-radius: 0;
+}
+
+.panel-default>.panel-heading {
+	padding-left: 40px;
+	background: url(../img/icons.png) 15px 0 no-repeat;
+	border-radius: 0;
+	background-color: #F3F3F8;
+	font-size: 18px;
+	color: #7d7d7d;
+}
+
+.panel-default>.panel-body {
+	border-radius: 0;
+	font-size: 14px;
+	color: #333;
+}
+
+.panel-default>.panel-body .desc {
+	text-indent: 2.5em;
+	line-height: 1.7em;
+}
+
+.panel-default>.tab-content .desc {
+	text-indent: 2.5em;
+	line-height: 1.7em;
+}
+
+.subtitle {
+	padding: 5px;
+	margin-bottom: 20px;
+	background-color: #F3F0F0;
+	font-size: 16px;
+}
+
+.chart-title {
+	border-bottom: 1px #AEAEAE dashed;
+}
+
+.chart-title>h3 {
+	padding: 2px 10px;
+	border-left: 5px #67D489 solid;
+	font-size: 16px;
+}
+
+
+/**侧边导航*/
+
+.sidebar {
+	min-height: 510px;
+	padding-bottom: 90px;
+}
+
+.sidebar .nav>li {
+	padding: 1px 30px;
+	background: url(../img/icons_slidebar.png) 0 -68px no-repeat;
+}
+
+.sidebar .nav>li:hover {
+	background-position-y: -142px;
+}
+
+.sidebar .nav>li:hover>a {
+	border-radius: 1px;
+	background: #EEEEEE;
+}
+
+.sidebar .nav>li>a {
+	padding: 10px;
+}
+
+.sidebar .nav>li.active {
+	background-position-y: -223px;
+}
+
+.sidebar .nav>li.top {
+	padding: 20px;
+	;
+	background-position-y: top;
+}
+
+.sidebar .nav>li.bottom {
+	padding: 20px;
+	background-position-y: bottom;
+}
+
+.sidebar .nav .num {
+	color: #999;
+}
+
+.sidebar .nav .title {
+	color: #555;
+	font-weight: bold;
+	padding-left: 7px;
+}
+
+.sidebar .nav .active .num,
+.nav .active .title {
+	color: #5896D5;
+}
+
+.sidebar .bottom-wrap {
+	position: absolute;
+	bottom: 0;
+}
+
+.sidebar .bottom-wrap .toggle-button,
+.bottom-wrap .gotop-button {
+	margin-top: 5px;
+	display: block;
+	height: 45px;
+	width: 45px;
+	background: url(../img/icons.png) 0 -50px no-repeat;
+	cursor: pointer;
+}
+
+.sidebar .bottom-wrap .gotop-button {
+	background-position-y: -100px;
+}
+
+.sidebar .bottom-wrap .toggle-button:hover,
+.bottom-wrap .gotop-button:hover {
+	background-position-x: -48px;
+}
+
+
+/**panel-tabs样式*/
+/*.panel-tabs {
+	border: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}*/
+
+.nav-tabs {
+	height: 44px;
+	background: #F3F3F8;
+	margin-left: -1px;
+	border-left: 1px solid #ddd
+}
+
+/*.panel-tabs>.nav-tabs>li {}*/
+
+.nav-tabs>li>a {
+	margin: -1px 0 0 0px;
+	font-size: 16px;
+	color: #333;
+	border-radius: 0;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active:hover>a:hover {
+	border-top: 3px solid #E99831!important;
+	background-color: #fff;
+}
+
+/*.panel-tabs>.nav-tabs>li:hover {}*/
+
+.nav-tabs>li>a:hover {
+	border-top: 1px solid #ddd;
+	border-right: 1 transparent;
+	border-bottom: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+/*.panel-tabs>.nav-tabs>li {}*/
+
+.nav-tabs>li>a {
+	margin: -1px 0 0 0px;
+	font-size: 16px;
+	color: #333;
+	border-radius: 0;
+}
